@@ -1,0 +1,30 @@
+main {
+  width: 800px;
+  margin: auto;
+  padding: 1rem 5rem;
+}
+
+section:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+
+.flexArticle {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexArticle article {
+  margin-right: 55px;
+}
+
+ul ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+footer dl {
+  margin: 5px 0;
+}
